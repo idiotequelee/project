@@ -1,0 +1,136 @@
+[
+    {
+        "band": "Radiohead ",
+        "participants": ["Thom Yorke", "Jonny Greenwood", "Ed O\u2019Brien", "Colin Greenwood", "Phil Selway"],
+        "albums": [
+            {
+                "title": "Pablo Honey",
+                "year": 1993
+            },
+            {
+                "title": "The Bends",
+                "year": 1995
+            },
+            {
+                "title": "OK Computer",
+                "year": 1997
+            },
+            {
+                "title": "Kid A",
+                "year": 2000
+            },
+            {
+                "title": "Hail to the Thief",
+                "year": 2003
+            },
+            {
+                "title": "The King of Limbs",
+                "year": 2011
+            },
+            {
+                "title": "A Moon Shaped Pool",
+                "year": 2016
+            }
+        ]
+    },
+    {
+        "band": "Nothing But Thieves",
+        "participants": ["Conor Mason", "Joe Langridge-Brown", "Dominic Craik", "Philip Blake", "James Price"],
+        "albums": [
+            {
+                "title": "Nothing but Thieves",
+                "year": 2015
+            },
+            {
+                "title": "Broken Machine",
+                "year": 2017
+            },
+            {
+                "title": "Moral Panic",
+                "year": 2020
+            }
+        ]  
+    },
+    {
+        "band": "Our Last Night",
+        "participants": ["Trevor Wentworth", "Matt Wentworth", "Alex Woodrow", "Tim Molloy"],
+        "albums": [
+            {
+                "title": "The Ghosts Among Us",
+                "year": 2008
+            },
+            {
+                "title": "We Will All Evolve",
+                "year": 2010
+            },
+            {
+                "title": "Age of Ignorance",
+                "year": "2012"
+            },
+            {
+                "title": "Let Light Overcome the Darkness",
+                "year": 2020
+            }
+        ]
+    },
+    {
+        "band": "Foals",
+        "participants": ["Yannis Philippakis", "Jack Bevan", "Jimmy Smith", "Edwin Congreave"],
+        "albums": [
+            {
+                "title": "Antidotes",
+                "year": 2008
+            },
+            {
+                "title": "Total Life Forever",
+                "year": 2010
+            },
+            {
+                "title": "Holy Fire",
+                "year": 2013
+            },
+            {
+                "title": "What Went Down",
+                "year": 2015
+            }
+        ]
+    },
+    {
+        "band": "The Neighbourhood",
+        "participants": ["Jesse Rutherford", "Jeremy Freedman", "Zach Abels", "Mikey Margott", "Brandon Alexander Fried"],
+        "albums": [
+            {
+                "title": "I Love You.",
+                "year": 2013
+            },
+            {
+                "title": "Wiped Out!",
+                "year": 2015
+            },
+            {
+                "title": "The Neighbourhood",
+                "year": 2018
+            },
+            {
+                "title": "Chip Chrome & the Mono-Tones",
+                "year": 2020
+            }
+        ] 
+    },
+    {
+        "band": "Mac DeMarco",
+        "participants": "Mac DeMarco",
+        "albums": [
+            {
+                "title": "Salad Days",
+                "year": 2014
+            },
+            {
+                "title": "Here Comes The Cowboy",
+                "year": 2019
+            }
+        ]
+    }
+]
+
+            
