@@ -1,40 +1,100 @@
 [
     {
         "band": "Radiohead ",
-        "participants": ["Thom Yorke", "Jonny Greenwood", "Ed Brien", "Colin Greenwood", "Phil Selway"],
-        "albums": ["Pablo Honey", "The Bends", "OK Computer", "Kid A", "Hail to the Thief", "The King of Limbs", "A Moon Shaped Pool"],
-        "year": 1985           
+        "participants": [
+            "Thom Yorke",
+            "Jonny Greenwood",
+            "Ed Brien",
+            "Colin Greenwood",
+            "Phil Selway"
+        ],
+        "albums": [
+            "Pablo Honey",
+            "The Bends",
+            "OK Computer",
+            "Kid A",
+            "Hail to the Thief",
+            "The King of Limbs",
+            "A Moon Shaped Pool"
+        ],
+        "year": 1985
     },
     {
         "band": "Nothing But Thieves",
-        "participants": ["Conor Mason", "Joe Langridge-Brown", "Dominic Craik", "Philip Blake", "James Price"],
-        "albums": ["Nothing but Thieves", "Broken Machine", "Moral Panic"],
-        "year": 2012 
+        "participants": [
+            "Conor Mason",
+            "Joe Langridge-Brown",
+            "Dominic Craik",
+            "Philip Blake",
+            "James Price"
+        ],
+        "albums": [
+            "Nothing but Thieves",
+            "Broken Machine",
+            "Moral Panic"
+        ],
+        "year": 2012
     },
     {
         "band": "Our Last Night",
-        "participants": ["Trevor Wentworth", "Matt Wentworth", "Alex Woodrow", "Tim Molloy"],
-        "albums": ["The Ghosts Among Us", "We Will All Evolve", "Age of Ignorance", "Younger Dreams", "Let Light Overcome", "Overcome the Darkness", "Let Light Overcome the Darkness"],
+        "participants": [
+            "Trevor Wentworth",
+            "Matt Wentworth",
+            "Alex Woodrow",
+            "Tim Molloy"
+        ],
+        "albums": [
+            "The Ghosts Among Us",
+            "We Will All Evolve",
+            "Age of Ignorance",
+            "Younger Dreams",
+            "Let Light Overcome",
+            "Overcome the Darkness",
+            "Let Light Overcome the Darkness"
+        ],
         "year": 2004
     },
     {
         "band": "Foals",
-        "participants": ["Yannis Philippakis", "Jack Bevan", "Jimmy Smith", "Edwin Congreave"],
-        "albums": ["Antidotes", "Total Life Forever", "Holy Fire", "What Went Down"],
+        "participants": [
+            "Yannis Philippakis",
+            "Jack Bevan",
+            "Jimmy Smith",
+            "Edwin Congreave"
+        ],
+        "albums": [
+            "Antidotes",
+            "Total Life Forever",
+            "Holy Fire",
+            "What Went Down"
+        ],
         "year": 2005
     },
     {
         "band": "The Neighbourhood",
-        "participants": ["Jesse Rutherford", "Jeremy Freedman", "Zach Abels", "Mikey Margott", "Brandon Alexander Fried"],
-        "albums": ["I Love You.", "Wiped Out!", "The Neighbourhood", "Chip Chrome & the Mono-Tones"],
+        "participants": [
+            "Jesse Rutherford",
+            "Jeremy Freedman",
+            "Zach Abels",
+            "Mikey Margott",
+            "Brandon Alexander Fried"
+        ],
+        "albums": [
+            "I Love You.",
+            "Wiped Out!",
+            "The Neighbourhood",
+            "Chip Chrome & the Mono-Tones"
+        ],
         "year": 2011
     },
     {
         "band": "Mac DeMarco",
         "participants": "Mac DeMarco",
-        "albums": ["Salad Days", "This Old Dog", "Here Comes The Cowboy"],
+        "albums": [
+            "Salad Days",
+            "This Old Dog",
+            "Here Comes The Cowboy"
+        ],
         "year": 2008
     }
 ]
-
-            
