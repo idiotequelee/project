@@ -91,49 +91,39 @@ def delete_artist():
     save_json(new_library)
 
    
-# def edit_artist():
-#     data = parse_json()
-#     new_library = []
-#     library_size = len(data)-1
-#     edit_option = input(f"Which artist would you like to edit? \nChoose the number from 0 to {library_size}: ")
-#     index = 0
-#     for artist in data:
-#         if index == int(edit_option):
-#             pass
-#             index += 1
-#         else:
-#             while True:
-#                 print("1 - edit band")
-#                 print("2 - edit participants")
-#                 print("3 - edit albums")
-#                 print("4 - edit year")
-#                 print("5 - exit the menu")
-#                 print("\n")
-#                 user_input = input("Enter what you want to edit: ")
-#                 library = parse_json()
-#                 if user_input == "1":
-#                     band = input("Enter the name of the band: ")
-#                     library.append({'band': band})
-#                     save_json(library)
-#                 elif user_input == "2":
-#                     participants = input("Enter the participants separated by comma: ")
-#                     library.append({'participants': participants.split(",")})
-#                     save_json(library)
-#                 elif user_input == "3":
-#                     albums = input("Enter the albums separated by comma: ")
-#                     library.append({'albums': albums.split(",")})
-#                     save_json(library)
-#                 elif user_input == "4":
-#                     year = int(input("Enter the year of the establishment: "))
-#                     library.append({'year': year})
-#                     save_json(library)
-#                 elif user_input == "5":
-#                     break
-#                 else:
-#                     print("Please, enter the options from 1 to 5")
-#         break  
+def edit_artist():
+    view_library(parse_json())
+    new_library = []
+    data = parse_json()
+    library_size = len(data)-1
+    index = 0
+    edit_option = input(f"Which artist would you like to edit? \nChoose the number from 0 to {library_size}: ")
+    for artist in data:
+        if index == int(edit_option):
+            band = artist['band']
+            participants = artist['participants']
+            albums = artist['albums']
+            year = artist['year']
+            print(f"Current name of artist: {band}")
+            band = input("Enter new name of the band: ")
+            print(f"Current participants: {participants}")
+            participants = input("Enter new participants separated by comma: ")
+            print(f"Current albums: {albums}")
+            albums = input("Enter new albums separated by comma: ")
+            print(f"Current year of establishment: {year}")
+            year = int(input("Enter new year of the establishment: "))
+            new_library.append({"band": band, "participants": participants, "albums": albums, "year": year})
+            index += 1
+        else:
+            new_library.append(artist)
+            index += 1
+    save_json(new_library)
 
-main()
+
+main()   
+
+
+
 
 
 
